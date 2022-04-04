@@ -1,0 +1,45 @@
+ table, th, tr {
+   background-color: whitesmoke;
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    padding: 15px;
+  } 
+  
+ h3{
+background-color: yellow;
+width: 70%;
+  }
+
+  #main-body {
+    display: grid;
+    grid-template-columns: minmax(300px,auto);   
+    grid-gap: 20px;
+    width:50px;
+    float: left;
+    text-size-adjust: 50px;
+    font-size: xx-small;
+}
+
+
+
+fieldset{
+  float: left;
+  background-color: rgb(238, 238, 238);
+ font-size: larger;
+}
+li{
+    font-size: larger;
+    position: relative;
+    left: 20px;
+
+    
+}
+p{
+    font-size: larger;
+}
+h1{
+    background-color: rgba(237, 233, 1, 0.959);
+}
